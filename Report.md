@@ -30,7 +30,8 @@ Q_target = r + γ * Q_target(s', μ_target(s'))
 
 μ_target(s') is the target actor's deterministic action that it chooses for continuous actions.
 
-The target network updates its gradient based on deterministic actions that the critic network perceive are apt for a state, action pair: ∇<sub>θμ</sub>J ≈ E[∇<sub>a</sub>Q(s,a∣θ<sup>Q</sup>)∇<sub>θμ</sub>μ(s∣θ<sup>μ</sup>)]
+The target network updates its gradient based on deterministic actions that the critic network perceive are apt for a state, action pair:<br /> 
+∇<sub>θμ</sub>J ≈ E[∇<sub>a</sub>Q(s,a∣θ<sup>Q</sup>)∇<sub>θμ</sub>μ(s∣θ<sup>μ</sup>)]
 
 Both DQN and DDPG use target networks (slowly updated versions of main networks) to stabilize training:
 
