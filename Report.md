@@ -49,6 +49,7 @@ The Replay Buffer uses a queue for a replay buffer. It randomly selects past exp
 
 The Actor and Critic neural networks used are below:
 
+```
 Actor(
   (fc1): Linear(in_features=24, out_features=256, bias=True)
   (fc2): Linear(in_features=256, out_features=128, bias=True)
@@ -59,6 +60,7 @@ Critic(
   (fc2): Linear(in_features=258, out_features=128, bias=True)
   (fc3): Linear(in_features=128, out_features=1, bias=True)
 )
+```
 
 ## Plot of Rewards 
 
