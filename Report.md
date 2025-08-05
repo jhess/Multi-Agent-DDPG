@@ -9,6 +9,8 @@ The reinforcement learning agent implementation follows the ideas of [arXiv:1509
 
 The actor network is responsible for chosing actions based on the state and the critic network try to estimate the reward for the given state-action pair. The actor network is indirectly trained using gradient ascent on the critic network, reducing the problem of building a loss function to a more classic RL problem of maximize the expected reward.
 
+It's model comprises of an actor network π(s) that directly outputs continuous actions, and a critic network Q(s,a) that evaluates the quality of state-action pairs. The critic's primary role is to provide learning signals to improve the actor's policy, π(s).
+
 The agent exploits the initial lack of knowledge using additive random noise to explore the environment [Ornstein–Uhlenbeck process](https://en.wikipedia.org/wiki/Ornstein%E2%80%93Uhlenbeck_process).
 
 The hyperparameters used are:
