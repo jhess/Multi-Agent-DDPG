@@ -15,7 +15,7 @@ The observation space consists of 8 variables corresponding to the position and 
 The environment is considered solved when the average (over 100 episodes) of the sliding window/deque score is at least +0.5.
 
 ## Training the Agent
-To train the agent use Tennis.ipynb file, by running:
+To train the agent use Tennis.ipynb file, by running:</br>
 ```Tennis.ipynb```
 
 ## Dependencies
