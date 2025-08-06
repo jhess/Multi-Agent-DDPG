@@ -22,7 +22,7 @@ The hyperparameters used are:
 - Tau: 0.001
 - Adam weight decay: 0
 
-The number of episodes used is 5,000, which is not a hyperparameter.
+The number of episodes used is 10,000, which is not a hyperparameter.
 
 ## Multi Agent Learning using DDPG
 
